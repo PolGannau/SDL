@@ -48,7 +48,7 @@ int main(int argc, char* argv[])
                     }
                     break;
                 case SDLK_RIGHT:
-                    if (rect.x < (720 - redsquare.w)) {
+                    if (rect.x < (720 - rect.w)) {
 						rect.x += 10;
                     }
                     break;
